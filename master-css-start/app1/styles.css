@@ -14,7 +14,38 @@ body {
   color: #333;
 }
 
-/* class selector */
+/* navigation */
+.nav{
+  padding:15px 100px;
+}
+
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu{
+  display: flex;
+  gap: 40px;
+}
+
+.nav-link{
+  list-style: none;
+}
+
+.nav-link a{
+  text-decoration: none;
+  color: hsl(0, 0%, 15%);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav-link a:hover{
+ 
+  color: hsl(0, 0%, 30%);
+  
+}
+/* hero*/
 .hero {
   padding: 100px;
 }
